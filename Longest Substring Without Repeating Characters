@@ -1,0 +1,23 @@
+class Solution:
+    def lengthOfLongestSubstring(self, s: str, count=0) -> int:
+        if s=="":
+            return 0
+        else:
+            array=[]
+            a=1
+            b=0
+            input_array = [str(word) for word in s]
+            if count<len(input_array):
+                array.append(input_array[count])
+            for i in range(count+1,len(input_array)):
+                if s[i] in array:
+                    count+=1
+                    b=self.lengthOfLongestSubstring(input_array,count)
+                    break
+                else:
+                    array.append(input_array[i])
+                    a=len(array)
+            if b>a:
+                return b
+            else:
+                return a
