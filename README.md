@@ -62,7 +62,43 @@
 輸出： false
 
 解釋：從右向左讀取 01。因此它不是回文。
+
+ ##
+ ##[Longest Substring Without Repeating Characters](https://github.com/Dadanielwu/LeetCode_Practice/blob/main/Longest%20Substring%20Without%20Repeating%20Characters)
+給定一個字串，找出最長s的長度子字串，沒有重複字元。
+
+範例1：
+
+輸入： s = "abcabcbb"
+
+輸出： 3
+
+解釋：答案是“abc”，長度為 3。
+
+範例2：
+
+輸入： s = "bbbbb"
+
+輸出： 1
+
+解釋：答案是 "b"，長度為 1。
+
+範例3：
+
+輸入： s = "pwwkew"
+
+輸出： 3
+
+解釋：答案是“wke”，長度為 3。
+
+請注意，答案必須是子字串，“pwke”是子序列而不是子字串。
  
+
+限制條件：
+
+0 <= s.length <= 5 * 104
+
+s由英文字母、數字、符號和空格組成。
 
 限制條件：
 
