@@ -35,4 +35,38 @@
 
 追問： 你能想出一個小於時間複雜度的演算法嗎？O(n2)
 
-## A second-level heading
+##
+## [Palindrome Number](https://github.com/Dadanielwu/LeetCode_Practice/blob/main/Palindrome%20Number)
+給定一個整數x，如果x是一個回文則傳回true，否則回傳false。
+
+範例1：
+
+輸入： x = 121
+
+輸出： true
+
+解釋： 121 從左到右讀為 121，從右到左讀為 121。
+
+範例2：
+
+輸入： x = -121
+
+輸出： false
+
+解釋：從左到右，讀取的是 -121。從右到左，變成121-。因此它不是回文。
+
+範例3：
+
+輸入： x = 10
+
+輸出： false
+
+解釋：從右向左讀取 01。因此它不是回文。
+ 
+
+限制條件：
+
+-231 <= x <= 231 - 1
+ 
+
+追問：你能在不將整數轉換為字串的情況下解決這個問題嗎？
