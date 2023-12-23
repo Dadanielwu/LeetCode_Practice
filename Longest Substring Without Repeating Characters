@@ -1,3 +1,4 @@
+# 回傳最長子串列長度
 class Solution:
     def lengthOfLongestSubstring(self, s: str, count=0) -> int:
         if s=="":
@@ -21,3 +22,30 @@ class Solution:
                 return b
             else:
                 return a
+
+# 回傳最長子串列
+class Solution:
+    def lengthOfLongestSubstring(self, s: str, count=0) -> int:
+        if s=="":
+            return ""
+        else:
+            array=[]
+            array2=[]
+            input_array = [str(word) for word in s]
+            array.append(input_array[count])
+            for i in range(count+1,len(input_array)):
+                if s[i] in array:
+                    count+=1
+                    array2=self.lengthOfLongestSubstring(input_array,count)
+                    break
+                else:
+                    array.append(input_array[i])
+            if len(array2)>len(array):
+                return array2
+            else:
+                return array
+
+# 輸入
+solution = Solution()
+final=solution.lengthOfLongestSubstring(s="asbdyfheaddfds")
+print(final)
