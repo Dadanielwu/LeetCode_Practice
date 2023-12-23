@@ -63,8 +63,8 @@
 
 解釋：從右向左讀取 01。因此它不是回文。
 
- ##
- ##[Longest Substring Without Repeating Characters](https://github.com/Dadanielwu/LeetCode_Practice/blob/main/Longest%20Substring%20Without%20Repeating%20Characters)
+ ## 
+ ## [Longest Substring Without Repeating Characters](https://github.com/Dadanielwu/LeetCode_Practice/blob/main/Longest%20Substring%20Without%20Repeating%20Characters)
 給定一個字串，找出最長s的長度子字串，沒有重複字元。
 
 範例1：
