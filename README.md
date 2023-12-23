@@ -1,5 +1,5 @@
 # LeetCode_Practice
-##[Two Sum](https://github.com/Dadanielwu/LeetCode_Practice/blob/main/Two%20Sum)
+## [Two Sum](https://github.com/Dadanielwu/LeetCode_Practice/blob/main/Two%20Sum)
 給定一個整數數組nums 和一個整數target，傳回兩個數字的索引，使它們相加為target。您可以假設每個輸入都有一個解決方案，並且您不能兩次使用相同的元素。您可以按任意順序返回答案。
 範例1：
 輸入： nums = [2,7,11,15], target = 9
