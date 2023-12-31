@@ -135,7 +135,7 @@ s由英文字母、數字、符號和空格組成。
 -231 <= x <= 231 - 1
 
 ##
-## [Reverse Integer](https://github.com/Dadanielwu/LeetCode_Practice/blob/main/Reverse%20Integer)
+## [Largest Substring Between Two Equal Characters](https://github.com/Dadanielwu/LeetCode_Practice/blob/main/Longest%20Substring%20Without%20Repeating%20Characters.py)
 給定一個 string s，傳回兩個相等字元之間最長子字串的長度，不包括這兩個字元。如果沒有這樣的子字串則回傳-1。子字串是字串中連續的字元序列。
 
 範例1：
