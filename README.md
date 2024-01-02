@@ -1,5 +1,5 @@
 # LeetCode_Practice
-## [Two Sum](https://github.com/Dadanielwu/LeetCode_Practice/blob/main/Two%20Sum)
+## [Two Sum](https://github.com/Dadanielwu/LeetCode_Practice/blob/main/Two%20Sum.py)
 給定一個整數數組nums 和一個整數target，傳回兩個數字的索引，使它們相加為target。您可以假設每個輸入都有一個解決方案，並且您不能兩次使用相同的元素。您可以按任意順序返回答案。
 
 範例1：
@@ -36,7 +36,7 @@
 追問： 你能想出一個小於時間複雜度的演算法嗎？O(n2)
 
 ##
-## [Palindrome Number](https://github.com/Dadanielwu/LeetCode_Practice/blob/main/Palindrome%20Number)
+## [Palindrome Number](https://github.com/Dadanielwu/LeetCode_Practice/blob/main/Palindrome%20Number.py)
 給定一個整數x，如果x是一個回文則傳回true，否則回傳false。
 
 範例1：
@@ -64,7 +64,7 @@
 解釋：從右向左讀取 01。因此它不是回文。
 
  ## 
- ## [Longest Substring Without Repeating Characters](https://github.com/Dadanielwu/LeetCode_Practice/blob/main/Longest%20Substring%20Without%20Repeating%20Characters)
+ ## [Longest Substring Without Repeating Characters](https://github.com/Dadanielwu/LeetCode_Practice/blob/main/Longest%20Substring%20Without%20Repeating%20Characters.py)
 給定一個字串，找出最長s的長度子字串，沒有重複字元。
 
 範例1：
@@ -107,7 +107,7 @@ s由英文字母、數字、符號和空格組成。
 
 追問：你能在不將整數轉換為字串的情況下解決這個問題嗎？
 ##
-## [Reverse Integer](https://github.com/Dadanielwu/LeetCode_Practice/blob/main/Reverse%20Integer)
+## [Reverse Integer](https://github.com/Dadanielwu/LeetCode_Practice/blob/main/Reverse%20Integer.py)
 給定一個帶符號的 32 位元整數x，傳回x其數字反轉的值。如果反轉x導致值超出有符號 32 位元整數範圍[-231, 231 - 1]，則傳回0。
 
 假設環境不允許您儲存 64 位元整數（有符號或無符號）。
